@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FCM Example</string>
+    <string name="copy_device_token_to_clipboard">copy device token to clipboard</string>
+    <string name="this_page_is_only_accessible_via_notification">THIS PAGE IS ONLY ACCESSIBLE VIA NOTIFICATION</string>
+    <string name="title_activity_send">SendActivity</string>
+    <string name="send_data_notification">Send data notification</string>
+    <string name="send">Send</string>
+    <string name="back">Back</string>
+    <string name="title">title</string>
+    <string name="body">Body</string>
+    <string name="topic">Topic</string>
+
+</resources>

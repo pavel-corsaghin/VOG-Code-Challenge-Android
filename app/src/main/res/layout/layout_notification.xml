@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="notification"
+            type="com.example.fcmexample.db.Notification" />
+        <variable
+            name="clickListener"
+            type="com.example.fcmexample.ItemClickListener" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:onClick="@{() -> clickListener.onClick(notification)}"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Test"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="@{notification.content}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
