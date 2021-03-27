@@ -1,1 +1,1 @@
-This iOS project for VOG Code Challenge
+This Android project for VOG Code Challenge
